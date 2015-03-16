@@ -1,0 +1,105 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: #2b2b2b url("../media/images/bg.png");
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 90px 0 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/*-------------------------------------------
+Header
+-------------------------------------------*/
+
+.logo {
+    margin: 0 0 50px;
+}
+
+h1 {
+    margin: 0 0 30px 90px;
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 74px;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc;
+}
+
+/*-------------------------------------------
+Features Section
+-------------------------------------------*/
+
+.sectionFeatures {
+    margin: 0 15px 30px 0;
+    width: 530px;
+    float: left;
+}
+
+.sectionFeatures_p {
+    margin: 0 0 30px 90px;
+    font-size: 22px;
+    line-height: 35px;
+    color: #d9d9d9;
+    text-shadow: 0 1px 5px #000000;
+}
+
+.sectionFeatures_h2 {
+    margin: 0 0 10px 90px;
+    font-size: 40px;
+    font-weight: normal;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc;
+}
+
+.sectionFeatures_ul {
+    margin: 0 0 30px 90px;
+    font-size: 22px;
+    line-height: 45px;
+    color: #d9d9d9;
+    text-shadow: 0 1px 5px #000000;
+    list-style-type: disc;
+}
+
+/*-------------------------------------------
+Aside Iphone
+-------------------------------------------*/
+
+.asideIphone {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+
+/*-------------------------------------------
+Footer
+-------------------------------------------*/
+
+.footer {
+    width: 960px;
+    float: left;
+    clear: both;
+    overflow: hidden;
+}
+
+.appStore {
+    display: block;
+    width: 196px;
+    height: 72px;
+    background: url(../media/images/app-store.png);
+    text-indent: -9999px;
+    margin-left: 84px;
+    float: left;
+}
+
+.footer_p {
+    float: right;
+    clear: right;
+    font-size: smaller;
+    color: #5a5a5a;
+    margin-top: 10px;
+
+}
